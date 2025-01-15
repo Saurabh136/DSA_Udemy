@@ -1,0 +1,25 @@
+package queue.constructor;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        QueueConstructor myQueue = new QueueConstructor(4);
+
+        myQueue.printAll();
+
+        /*
+            EXPECTED OUTPUT:
+            ----------------
+            First: 4
+            Last: 4
+            Length: 1
+            
+            Queue:
+            4
+
+        */
+
+    }
+
+}
